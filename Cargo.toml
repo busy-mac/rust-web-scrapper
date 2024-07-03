@@ -1,0 +1,10 @@
+[package]
+name = "rust-scrapper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = { version = "0.12.5", features = ["json"] }
+tokio = { version = "1.38.0", features = ["full"] }
+scraper = "0.19"
+rusqlite = { version = "0.31.0", features = ["bundled"] }
